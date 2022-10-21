@@ -1,0 +1,33 @@
+img{
+    width: 100%;
+}
+.main:hover {
+    background-color: rgb(218, 218, 171);
+  }
+
+.main{
+    height: 100%;
+    /* width:100%; */
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+    
+}
+.btn2{
+    
+    border-radius: 10px;
+    background-color: rgb(89, 255, 0);
+    height: 7%;
+    width: 20%;
+    margin-bottom: 10%;
+    animation-name: example;
+    animation-duration: 10s;
+    
+}
+@keyframes example {
+    from {background-color: rgb(33, 33, 33);}
+    to {background-color:  rgb(89, 255, 0)}
+  }

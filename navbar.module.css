@@ -1,0 +1,19 @@
+.container{
+display: flex;
+gap: 10%;
+justify-content: center;
+/* text-align: center; */
+border: 1px solid black;
+/* margin-bottom: 50%; */
+font-weight: bold;
+}
+
+.btn{
+    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    background-color: rgb(89, 255, 0);
+    font-weight: bold;
+   
+}
